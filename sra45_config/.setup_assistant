@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: maniassem
+    relative_path: urdf/new.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/maniassem.srdf
+  CONFIG:
+    author_name: lukesh
+    author_email: lukeshankamwar21@gmail.com
+    generated_timestamp: 1583319517
